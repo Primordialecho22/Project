@@ -7,7 +7,8 @@
 html{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--clr-text);
+    color: white;
+    background-color: black;
 }
 body{
     margin: 0;
@@ -39,7 +40,7 @@ p{
 }
 .logo a{
     text-decoration: none;
-    color: var(--clr-text)
+    color: white;
 }
 header{
     padding: 1em 0 2em;
@@ -59,15 +60,15 @@ nav a{
 }
 nav a:hover,
 nav a:focus{
-    color: var(--clr-primary);
+    color: dimgray;
 }
 .about{
     background-color: var(--clr-background);
-    background-image: url(../Images/colors.jpg);
+    background-image: url(../Images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
-    color: var(--clr-text);
+    color: white;
     text-align: center;
     padding: 15vh 0;
 }
