@@ -15,8 +15,6 @@ body{
 }
 img{
     display: block;
-    max-width: 65%;
-
 }
 section{
     padding: 3em 1em;
@@ -103,7 +101,6 @@ footer{
 }
 .social_pic{
     padding: 2px;
-    max-width: 50%;
 }
 @media only screen and (min-width: 750px){
    
@@ -112,27 +109,8 @@ footer{
     }
 }
 @media only screen and (min-width: 1024px){
-    .about-us{
+    .about-us, .choose_us, .service, .contact, .services_arc, .h3_services{
         margin: 0 250px 0 250px;
-    }
-    .choose_us{
-        margin: 0 250px 0 250px;
-    }
-    .product{
-        margin: 0 250px 0 250px;
-    }
-    .contact{
-        margin: 0 250px 0 250px;
-    }
-    .img_contact{
-    display: block;
-    margin: 20px auto;
-    width: 75%;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 5px 5px 10px darkslateblue;
-    border-radius: 0;
-    border-radius: 56px;
     }
     .footer_social{
         margin-left: 25px;
