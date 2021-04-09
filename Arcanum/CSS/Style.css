@@ -8,7 +8,7 @@ html{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    background-color: royalblue;
+    background-color: lightslategray;
 }
 body{
     margin: 0;
@@ -35,6 +35,8 @@ p{
 .logo{
     font-family: cursive;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .logo a{
     text-decoration: none;
@@ -44,17 +46,24 @@ header{
     padding: 1em 0 2em;
 }
 nav ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
+    list-style-type: none;
     padding: 0;
-    justify-content: space-around;
 }
-nav a{
-    display: inline-block;
-    padding: 0.5em;
+nav li{
+    display: block;
+}
+nav li a{
+    display: block;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    background-color: royalblue;
     color: white;
     text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid white;
 }
 nav a:hover,nav a:focus{
     color: black;
@@ -62,6 +71,7 @@ nav a:hover,nav a:focus{
 .about{
     background-color: var(--clr-background);
     background-image: url(../Images/joel-filipe-ZMRMFULofus-unsplash.jpg);
+    border: 2px solid white;
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
@@ -79,7 +89,13 @@ nav a:hover,nav a:focus{
     margin-top: 20px;
     margin-bottom: 25px;
 }
+.contact_img{
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
 footer{
+    border: 2px solid white;
     color: inherit;
     background-color: royalblue;
     display: flex;
@@ -108,12 +124,36 @@ footer{
     padding: 2px;
 }
 @media only screen and (min-width: 750px){
-   
+    nav li{
+        display: inline-block;
+    }
+    nav li a{
+        height: 39px;
+        line-height: 39px;
+        width: 300px;
+        margin-right: 25px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
     .footer_social{
         margin-left: 450px;
     }
 }
 @media only screen and (min-width: 1024px){
+    nav{
+        background-color: royalblue;
+        border-radius: 10px;
+        border: 2px solid white;
+        margin-top: 10px;
+    }
+    nav li a{
+        background-color: royalblue;
+        width: 175px;
+        margin-left: 120px;
+        border: none;
+        height: 0;
+        line-height: 0;
+    }
     .about-us, .choose_us, .service, .contact, .services_arc, .h3_services{
         margin: 0 250px 0 250px;
     }
