@@ -160,4 +160,11 @@ footer{
     .footer_nav{
         margin-left: 100px;
     }
+
+    video{
+        max-width: 100%;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
 }
